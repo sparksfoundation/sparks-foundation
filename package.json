@@ -1,0 +1,7 @@
+{
+  "name": "sparks-foundation",
+  "description": "mono-repo for all non-technical things specific to SPARKS Foundation",
+  "private": true,
+  "author": "SPARKS Foundation <operations@sparks.foundation>",
+  "homepage": "https://sparks.foundation"
+}
