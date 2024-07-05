@@ -147,13 +147,16 @@ export default function Index() {
               </Heading>
             )}
             <Text className="text-center md:text-justify mb-8">
-              Users - like you - drive the success of crypto communities by sharing their ideas online with other people.
+              Users drive the success of crypto communities by sharing their ideas online with other people.
               We want to make sure that your engagement is being recognized by the community.
               Come and join us on this exciting journey!
             </Text>
+
           </div>
+
         </div>
       </Section>
+
 
       <Section id="about" solid>
         <div className="w-full md:flex justify-center items-center flex-wrap box-border pt-10">
@@ -206,9 +209,7 @@ export default function Index() {
               </Subtitle>
               <Text small>
               Sparks core team is anonymous and consists out of seasoned data scientists from the marketing space.
-              The team is working without any form of payment and believes in the longterm success of sparks by holding tokens.
-              You can reach us directly on telegram!
-              
+              The team is working without any form of payment and simply holds token.
                </Text>
             </Card>
             <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] text-justify" logo solid>
