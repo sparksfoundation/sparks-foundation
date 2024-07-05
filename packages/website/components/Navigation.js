@@ -7,16 +7,12 @@ import Triangle from './Triangle'
 
 const links = [
   { label: 'About', href: '#about' },
-  { label: 'Initiatives', href: '#initiatives' },
-  { label: 'Articles', href: '#articles' },
   { label: 'Governance', href: '#governance' },
 ]
 
 const socials = [
   { icon: Twitter, href: 'https://twitter.sparks.foundation' },
-  { icon: Discord, href: 'https://discord.sparks.foundation' },
   { icon: Telegram, href: 'https://telegram.sparks.foundation' },
-  { icon: Notion, href: 'https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e' },
 ]
 
 export default function Navigation() {

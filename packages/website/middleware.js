@@ -5,10 +5,6 @@ export const rewrites = [];
 export const redirects = [
   { subdomain: "linktree", href: `${process.env.ORIGIN}/#links` },
   { subdomain: "links", href: `${process.env.ORIGIN}/#links` },
-  { subdomain: "docs", href: 'https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e' },
-  { subdomain: "gitbook", href: "https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e" },
-  { subdomain: "notion", href: "https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e" },
-  { subdomain: "discord", href: "https://discord.com/invite/JuNWR6vGKC" },
   { subdomain: "twitter", href: "https://twitter.com/sparks_dao" },
   { subdomain: "github", href: "https://github.com/sparksfoundation" },
   { subdomain: "telegram", href: "https://t.me/sparks_official" },
