@@ -141,21 +141,16 @@ export default function Index() {
               </Heading>
             ) : (
               <Heading className="mt-10 md:mt-0 text-center md:text-left mb-8 whitespace-nowrap">
-                User controlled
+                User centered
                 <br />
-                digital <span className="text-sparks-purple-500">identity</span>
+             <span className="">community</span>
               </Heading>
             )}
             <Text className="text-center md:text-justify mb-8">
-              Decentralized identity is set to transform the world. However, If we allow centralized and profit-motivated organizations to build these solutions, we risk bias and mis-alignment. To ensure equitable outcomes, we're building inclusive and ethical identity tools, together.
+              Users - like you - drive the success of crypto communities by sharing their ideas online with other people.
+              We want to make sure that your engagement is being recognized by the community.
+              Come and join us on this exciting journey!
             </Text>
-            <Button className="mb-4 md:mb-0 mx-auto" href="https://discord.sparks.foundation" target="_blank">
-              Join discord
-              <ArrowUpRightIcon className="h-4 ml-2 inline-block" />
-            </Button>
-          </div>
-          <div className="w-full max-w-lg mx-auto md:max-w-1/2 pl-0 md:pl-2 object-contain flex-shrink">
-            <img className="w-full h-auto" src="/images/identity-app-1.png" />
           </div>
         </div>
       </Section>
@@ -168,113 +163,77 @@ export default function Index() {
               About
             </Subtitle>
             <Heading className="mb-6">
-              SPARKS ecosystem
+              SPARKS
             </Heading>
             <Text>
-              The SPARKS Foundation provides purpose, constitution, and grants to drive ethical, human-first identity products and services.
+            Sparks is taking community engagement to the next level!
             </Text>
           </div>
           <div className="w-full md:max-w-5/12 flex justify-end">
-            <Button className="mt-14 md:mt-0 mx-auto" target="_blank" href="https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e" light>
-              Read the docs
-              <ArrowUpRightIcon className="h-4 ml-2 inline-block" />
+          <Button className="mt-14 md:mt-0 mx-auto" href="https://t.me/sparks_official" target="_blank" light>
+              <ArrowUpRightIcon className="h-4 ml-2 inline-block " />
+              Join our telegram!
             </Button>
+
+            
           </div>
         </div>
         <div className="pb-20">
           <div className="flex justify-between mb-14 mt-20 flex-wrap">
-            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] mb-14 md:mb-0" logo solid>
+            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] mb-14 md:mb-0 text-justify" logo solid >
               <Subtitle className="mb-2">
                 Mission
               </Subtitle>
-              <Text small>
-                Build free, responsible, user driven open-source tools for self-sovereign identity and leverage them to develop common good services and equitable revenue-generating digital business models.
+              <Text small >
+                The greatest asset of crypto communities are their members - including YOU. We want to make sure that you get the visibility you deserve when
+                making contributions on social media. We don't enforce community engagement, we encourage it!
               </Text>
             </Card>
-            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)]" logo solid>
+            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] text-justify" logo solid>
               <Subtitle className="mb-2">
                 Vision
               </Subtitle>
               <Text small>
-                To drive a more equitable, human-centered digital economy, where individuals have control over their digital identities and organizations are incentivized to innovate and drive value generation at the software and business layer, rather than through personal data.
+              The success of many crypto projects lies in the engagement of their community. Each spark member has the power to make the make the community grow
+              by letting the world know about it. Sparks is the first project to track each members engagement on social media and making their engagement visible to the community.              </Text>
+            </Card>
+            </div>
+            <div className="flex justify-between flex-wrap">
+
+            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)]  mb-14 md:mb-0 text-justify" logo solid>
+              <Subtitle className="mb-2">
+                Team
+              </Subtitle>
+              <Text small>
+              Sparks core team is anonymous and consists out of seasoned data scientists from the marketing space.
+              The team is working without any form of payment and believes in the longterm success of sparks by holding tokens.
+              You can reach us directly on telegram!
+              
+               </Text>
+            </Card>
+            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] text-justify" logo solid>
+              <Subtitle className="mb-2">
+                Progress
+              </Subtitle>
+              <Text small>
+               We will be testing our first prototype shortly and will release our initial whitepaper soon. Make sure to join us!
               </Text>
             </Card>
           </div>
-          <div className="flex justify-between flex-wrap">
-            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] mb-14 md:mb-0" logo solid>
-              <Subtitle className="mb-2">
-                Structure
-              </Subtitle>
-              <Text small>
-                The SPARKS Foundation is a founder-less, member-less, non-profit foundation. The foundation provides grants and sets the purpose, by-laws, mission and governance mechanism for the SPARKS ecosystem. All decisions are governed by the SPARKS DAO.
-              </Text>
-            </Card>
-            <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)]" logo solid>
-              <Subtitle className="mb-2">
-                SPARKS token
-              </Subtitle>
-              <Text small>
-                The SPARKS token enables members to participate in democratic decisions. It is used to issue grants for ecosystem contributions and to create distributed system economies that can solve challenges of trust, safety, and data governance.
-              </Text>
-            </Card>
-          </div>
+
         </div>
       </Section>
 
-      <Section id="initiatives" triangleTop="left-1/2">
-        <div className="w-full md:flex justify-between items-center py-20 flex-wrap box-border">
-          <div className="w-full lg:max-w-1/2 pl-0 lg:pl-2 object-contain flex-shrink">
-            <Heading className="mb-6">
-              Initiatives
-            </Heading>
-            <Text className="mb-16">
-              SPARKS Foundation provides grants for initiatives that support the development of ethical, human-centered identity tooling.
-            </Text>
-            <Card className="mb-10">
-              <Subtitle className="mb-2">
-                Identity core
-              </Subtitle>
-              <Text small>
-                Identity’s source of truth belongs with you, under your control. It should be open-source, unsiloed, fee-less and prioritize data minimization. Our identity core is being built alongside the community to form the basis for ecosystem functionality.
-              </Text>
-            </Card>
-            <Card className="mb-10" solid>
-              <Subtitle className="mb-2">
-                Products and services
-              </Subtitle>
-              <Text small>
-                Leveraging the identity core, community product guilds conceptualize, prototype, and launch common good services for the good of humanity, and revenue-generating services to ensure the long-term sustainability of the Foundation and DAO.
-              </Text>
-              <a href="https://www.notion.so/49a9e067911e4086b4a493ae0d746bb5?v=b59f72a9c7d24d12bed51c1e2381626f" target="_blank">
-                <Text className="font-semibold block mt-4" small>
-                  All Initiatives
-                  <ArrowUpRightIcon className="h-4 ml-2 inline-block" />
-                </Text>
-              </a>
-            </Card>
-          </div>
-          <div className="w-full max-w-lg md:max-w-1/2 pl-0 md:pl-14 box-border object-contain flex-shrink hidden lg:block">
-            <img className="w-full h-auto" src="/images/identity-app-2.png" />
-          </div>
-        </div>
-      </Section>
 
-      <Break
-        id="articles"
-        phrase="This is just the beginning."
-        button={{ label: 'Learn More', href: 'https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e' }}
-      />
 
       <Section id="governance">
         <div className="w-full max-w-5xl flex flex-col items-center box-border pt-20 break-normal">
           <Heading className="mb-6 text-center sm:text-left">
             Governance
           </Heading>
-          <Text className="max-w-5xl mb-20">
-            The SPARKS Foundation provides purpose, constitution, and grants to drive ethical, human-first identity products and services. SPARKS DAO governs the ecosystem via snapshot.org using SPARKS, a non-financial token, to represent voting rights.
-          </Text>
+
           <Card className="text-center p-6 sm:px-10 sm:py-12 box-border">
-            <Subtitle>GOVERNANCE TOKEN</Subtitle>
+            <Subtitle>SPARKS TOKEN</Subtitle>
             <div className="text-sm text-left flex flex-wrap w-full mt-8 mb-10">
               {[
                 ['Name', 'SPARKS'],
@@ -306,23 +265,11 @@ export default function Index() {
                 </React.Fragment>
               ))}
             </div>
-            <Button href="https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e" target="_blank">
-              Read more
-              <ArrowUpRightIcon className="h-4 ml-2 inline-block" />
-            </Button>
+
           </Card>
           <div className="text-center relative py-32 mt-10">
             <Triangle className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 md:w-96 md:h-96" />
-            <Subtitle className="mb-6 relative" lg>
-              Join our discord <span className="text-sparks-purple-500">community</span>
-            </Subtitle>
-            <Text className="mb-10 max-w-2xl relative">
-              The SPARKS Foundation provides a purpose, constitution and treasury but is governed by the SPARKS DAO.
-            </Text>
-            <Button href="https://discord.sparks.foundation" target="_blank" className="text-slate-950 relative" light>
-              Join discord
-              <ArrowUpRightIcon className="h-4 ml-2 inline-block" />
-            </Button>
+
           </div>
         </div>
       </Section>
@@ -342,8 +289,6 @@ export default function Index() {
                 {[
                   ['Twitter', 'https://twitter.sparks.foundation'],
                   ['Telegram', 'https://telegram.sparks.foundation'],
-                  ['Discord', 'https://discord.sparks.foundation'],
-                  ['GitHub', 'https://github.sparks.foundation'],
                 ].map(([label, link], index) => (
                   <a key={`socials-${index}`} className="block my-3 text-slate-50 text-sm font-semibold" href={link} target="_blank">{label}</a>
                 ))}
@@ -361,7 +306,6 @@ export default function Index() {
               <div className="mt-6 mx-10 text-center 800:text-left">
                 <h3 className="text-slate-50 opacity-60 text-xl font-semibold mb-2">About</h3>
                 {[
-                  ['Notion', 'https://sparks-dao.notion.site/SPARKS-DAO-073cfcc8fe814afaab7073ebd7e6513e'],
                   ['Terms', 'terms'],
                   ['Email', 'mailto:operations@sparks.foundation'],
                 ].map(([label, link], index) => (
@@ -374,7 +318,7 @@ export default function Index() {
               SPARKS token is strictly for governance and utility, conferring no financial or ownership rights. The content on our site is not financial or investment advice. By using our site, you accept these terms. See our <a className="underline" target="_blank" href="/terms">full terms</a> for details.
             </Text>
             <p className="text-slate-300 opacity-70 font-semibold text-sm w-full shrink-0 text-center mt-6">
-              Sparks Foundation ©2023. All rights reserved.
+              Sparks Foundation ©2024. All rights reserved.
             </p>
           </div>
         </footer>

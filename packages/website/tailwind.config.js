@@ -13,8 +13,9 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'sparks-purple-400':'#8971FF',
-        'sparks-purple-500':'#7B61FA',
+        'sparks-purple-400':'#657786',
+        'sparks-purple-500':'#14171A',
+        'sparks-blue-500':'#1DA1F2',
       },
       borderRadius: {
         '4xl': '2rem',
