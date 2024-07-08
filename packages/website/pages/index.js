@@ -141,15 +141,16 @@ export default function Index() {
               </Heading>
             ) : (
               <Heading className="mt-10 md:mt-0 text-center md:text-left mb-8 whitespace-nowrap">
-                User centered
+                SPARKS -
                 <br />
-             <span className="">community</span>
+                a crypto experiment
               </Heading>
             )}
             <Text className="text-center md:text-justify mb-8">
-              Users drive the success of crypto communities by sharing their ideas online with other people.
-              We want to make sure that your engagement is being recognized by the community.
-              Come and join us on this exciting journey!
+              Communities and their engagement are the key to the success of crypto projects. 
+              Each post, comment, like or other form of content has a value. By tracking your content and ranking it against all other members
+              we make sure that YOUR engagement is being recognized. Using our ranking system we can exactly know who our big and small influencers
+              are and reward them accordingly. For now the engagement tracker will be solely available to the $SPARK community - making it the first of it's kind.
             </Text>
 
           </div>
@@ -197,7 +198,7 @@ export default function Index() {
                 Vision
               </Subtitle>
               <Text small>
-              The success of many crypto projects lies in the engagement of their community. Each spark member has the power to make the make the community grow
+              The success of many crypto projects lies in the engagement of their community. Each spark member has the power to make the community grow
               by letting the world know about it. Sparks is the first project to track each members engagement on social media and making their engagement visible to the community.              </Text>
             </Card>
             </div>
@@ -208,16 +209,16 @@ export default function Index() {
                 Team
               </Subtitle>
               <Text small>
-              Sparks core team is anonymous and consists out of seasoned data scientists from the marketing space.
-              The team is working without any form of payment and simply holds token.
+              Sparks core team is anonymous and consists out of seasoned senior software engineers. Sparks treasury is locked until 2026.
                </Text>
             </Card>
             <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] text-justify" logo solid>
               <Subtitle className="mb-2">
-                Progress
+                Future Plans
               </Subtitle>
               <Text small>
-               We will be testing our first prototype shortly and will release our initial whitepaper soon. Make sure to join us!
+                We just delivered the first version of our engagement tracker and will be launching soon an airdrop campaign to drive community engagement and further testing.
+                $SPARK tracking will be as of now solely available for the $SPARK community. Currently we track Twitter and will release more features and channels soon.
               </Text>
             </Card>
           </div>
