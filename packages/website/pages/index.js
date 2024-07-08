@@ -141,16 +141,16 @@ export default function Index() {
               </Heading>
             ) : (
               <Heading className="mt-10 md:mt-0 text-center md:text-left mb-8 whitespace-nowrap">
-                $SPARK
+                SPARKS -
                 <br />
-             <span className="">a crypto social media experiment</span>
+                a crypto experiment
               </Heading>
             )}
             <Text className="text-center md:text-justify mb-8">
               Communities and their engagement are the key to the success of crypto projects. 
               Each post, comment, like or other form of content has a value. By tracking your content and ranking it against all other members
               we make sure that YOUR engagement is being recognized. Using our ranking system we can exactly know who our big and small influencers
-              are and reward them accordingly. For now the engagement tracker will be solely available to the $SPARK community - making it the first of its kind.
+              are and reward them accordingly. For now the engagement tracker will be solely available to the $SPARK community - making it the first of it's kind.
             </Text>
 
           </div>
@@ -218,7 +218,7 @@ export default function Index() {
               </Subtitle>
               <Text small>
                 We just delivered the first version of our engagement tracker and will be launching soon an airdrop campaign to drive community engagement and further testing.
-                $SPARK tracking will be as of now solely available for the $SPARK community. Currently we track only Twitter but will be adding many more features and channels soon.
+                $SPARK tracking will be as of now solely available for the $SPARK community. Currently we track Twitter and will release more features and channels soon.
               </Text>
             </Card>
           </div>
