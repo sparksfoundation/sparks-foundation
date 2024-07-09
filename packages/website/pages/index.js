@@ -143,14 +143,12 @@ export default function Index() {
               <Heading className="mt-10 md:mt-0 text-center md:text-left mb-8 whitespace-nowrap">
                 SPARKS -
                 <br />
-                a crypto experiment
+                redefining engagement
               </Heading>
             )}
             <Text className="text-center md:text-justify mb-8">
-              Communities and their engagement are the key to the success of crypto projects. 
-              Each post, comment, like or other form of content has a value. By tracking your content and ranking it against all other members
-              we make sure that YOUR engagement is being recognized. Using our ranking system we can exactly know who our big and small influencers
-              are and reward them accordingly. For now the engagement tracker will be solely available to the $SPARK community - making it the first of it's kind.
+              Sparks is the next-era community engagement tracking solution. Sparksbot enables projects to identify their most valuable community members on twitter and telegram using API integrations combined
+              with cutting-edge data analytics.
             </Text>
 
           </div>
@@ -189,8 +187,7 @@ export default function Index() {
                 Mission
               </Subtitle>
               <Text small >
-                The greatest asset of crypto communities are their members - including YOU. We want to make sure that you get the visibility you deserve when
-                making contributions on social media. We don't enforce community engagement, we encourage it!
+                To revolutionize online community engagement tracking by identifiying your most valuable community members!
               </Text>
             </Card>
             <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] text-justify" logo solid>
@@ -198,8 +195,10 @@ export default function Index() {
                 Vision
               </Subtitle>
               <Text small>
-              The success of many crypto projects lies in the engagement of their community. Each spark member has the power to make the community grow
-              by letting the world know about it. Sparks is the first project to track each members engagement on social media and making their engagement visible to the community.              </Text>
+                Many projects rely on active communities and reach on social media. Although this is a vital part in every business
+                there exist no smart solutions to actually track each community members engagement. Sparksbot is the first application
+                to track this engagement for twitter and telegram interactions - delivering projects insights into their most valuable members.
+                Ever wanted to know who is the most valuable community member to reward or motivate them more? Sparks is the solution. </Text>
             </Card>
             </div>
             <div className="flex justify-between flex-wrap">
@@ -209,7 +208,7 @@ export default function Index() {
                 Team
               </Subtitle>
               <Text small>
-              Sparks core team is anonymous and consists out of seasoned senior software engineers. Sparks treasury is locked until 2026.
+              Sparks core team is anonymous and consists out of senior software engineers. Sparks treasury is locked until 2026.
                </Text>
             </Card>
             <Card className="w-full max-w-full md:max-w-[calc(50%_-_1rem)] text-justify" logo solid>
@@ -217,8 +216,8 @@ export default function Index() {
                 Future Plans
               </Subtitle>
               <Text small>
-                We just delivered the first version of our engagement tracker and will be launching soon an airdrop campaign to drive community engagement and further testing.
-                $SPARK tracking will be as of now solely available for the $SPARK community. Currently we track Twitter and will release more features and channels soon.
+                We just delivered the first version of our engagement tracker and are currently running an airdrop campaign to drive community engagement and further testing.
+                Our top priority is to drive adoption of sparksbot by other projects.
               </Text>
             </Card>
           </div>
